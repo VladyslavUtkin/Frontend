@@ -1,0 +1,108 @@
+body {
+	background: black;
+	padding: 0;
+	margin: 0;
+	color: black;
+    font-family: 'PT Sans', sans-serif;
+	font-size: 12px;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1003px;
+	margin: 0 auto; 
+}
+.header {
+	background: black;
+}
+.top {
+	display: flex;
+	align-items: center;
+}
+.text{
+	margin-left: 20px;
+	color: grey;
+	display: block;
+}
+.login{
+	margin-left: auto;
+	margin-bottom: 0px;
+}
+img .login{
+	margin-left: auto;
+}
+a{
+	margin-left: 8px;
+	text-decoration: none;
+	color: grey
+}
+.header2{
+	background: #0F0F0F;
+	height: 70px;
+	align-items: center;
+}
+.logo{
+	color: #FFF;
+	font-size: 36px;
+	font-family: 'Libre Caslon Display', serif;
+	text-transform: uppercase;
+}
+.header2 .container{
+	display: flex;
+	padding-top: 10px;
+	justify-content: space-between;
+
+}
+.menu{
+	display: flex
+}
+.menu li{
+	display: flex;
+	width: 140px;
+	height: 70px;
+	justify-content: center;
+}
+.menu li:hover{
+	background: #1F1F1F;
+}
+.menu li a{
+	display: flex;
+	text-transform: uppercase;
+	font-size: 14px;
+	justify-content: center;
+	align-items: center;
+	margin-left: -3px;
+}
+li.cab{
+	width: 170px;
+}
+.menu li a:hover{
+	color: white;
+}
+.nav{
+	display: flex;
+	margin-left: auto;
+	margin-top: -9px;
+}
+.search{
+	margin-top: -9px;
+	margin-left: 10px;
+}
+.mainpage{
+	background: url('../img/main.png') no-repeat center top;
+	display: flex;
+	justify-content: center;
+}
+.mainpage img{
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
