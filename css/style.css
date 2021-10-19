@@ -1,4 +1,5 @@
 body {
+	width: 1519px;
 	background: black;
 	padding: 0;
 	margin: 0;
@@ -9,7 +10,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	padding: 0;
 	margin: 0;
-	text-transform: uppercase;
 }
 ul, li {
 	display: block;
@@ -99,10 +99,131 @@ li.cab{
 }
 .mainpage{
 	background: url('../img/main.png') no-repeat center top;
+	justify-content: center;
+}
+
+.mainpage .text{
+	display: flex;
+	justify-content: center;
+	font-size: 16px;
+	color: #FFF;
+	width: 730px;
+	height: 96px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.mainpage .logo{
+	display: flex;
+	justify-content: center;
+	padding-top: 160px;
+	padding-bottom: 80px;
+}
+.textarea{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 164px;
+}
+.season{
+	width: 820px;
+	background: #000;
+}
+.season .season{
 	display: flex;
 	justify-content: center;
 }
-.mainpage img{
-	padding-top: 160px;
-	padding-bottom: 160px;
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	color: white;
+	text-transform: uppercase;
+	width: 376px;
+	text-align: center;
+	padding-top: 93px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+hr{
+	color: #FFF;
+	width: 120px;
+	margin-top: 40px;
+}
+.images{
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.picture{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: #191B1C;
+	width: 200px;
+	height: 240px;
+	margin-top: 50px;
+}
+.group{
+	display: flex;
+	flex-direction: center;
+	flex-direction: column;
+	margin-right: 35px;
+}
+.picture img{
+	width: 170px;
+	height: 170px;
+}
+.name, .price{
+	color: #fff;
+	margin-top: 25px;
+	font-family: 'Playfair Display', serif;
+}
+.price{
+	margin-top: 15px;
+}
+.new{
+	background: url(../img/man.png) no-repeat;
+	margin-top: -5px;
+	width: 699px;
+}
+.new h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 400px;
+	margin-bottom: 0;
+	padding-bottom: 0;	
+}
+.new hr{
+	margin-top: 20px;
+}
+.mainarea{
+	display: flex;
+	height: 650px;
+}
+div.new{
+	display: flex;
+	justify-content: center;
+}
+.button{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.katalog{
+	border: solid #fff 1px;
+	padding: 12px 28px;
+	transition: color .4s linear;
+	transition: background .3s linear;
+}
+.katalog:hover{
+	background: #e3e5e4;
+	color: #000;
+	border: solid #fff 1px;
+	cursor: pointer;
 }
