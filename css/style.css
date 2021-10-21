@@ -394,8 +394,11 @@ input::-webkit-input-placeholder{ color: white
 .button3{
 	display: inline;
 	background: black;
-	border: solid grey 1pxs;
 	padding: 10px 20px;
+}
+.button3:hover{
+	cursor: pointer;
+	border: solid grey 1px;
 }
 .subscr{
 	color: #fff;
