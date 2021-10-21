@@ -67,12 +67,14 @@ a{
 }
 .menu li{
 	display: flex;
-	width: 140px;
+	width: auto;
 	height: 70px;
 	justify-content: center;
 }
 .menu li:hover{
 	background: #1F1F1F;
+	color: white;
+	cursor: pointer;
 }
 .menu li a{
 	display: flex;
@@ -81,12 +83,17 @@ a{
 	justify-content: center;
 	align-items: center;
 	margin-left: -3px;
+	padding: 0 30px;
 }
 li.cab{
-	width: 170px;
+	width: auto;
+}
+li.cab a{
+	padding: 0 20px;
+
 }
 .menu li a:hover{
-	color: white;
+    color: white;
 }
 .nav{
 	display: flex;
@@ -302,6 +309,7 @@ div.new{
 }
 .block5{
 	background: #0F0F0F;
+	padding-bottom: 70px;
 }
 .brands{
 	display: flex;
@@ -323,7 +331,7 @@ footer .container{
 	margin-right: 0;
 }
 .columnone{
-	margin-right: 40px;
+	margin-right: 90px;
 }
 h2{
 	font-family: 'Playfair Display';
@@ -341,14 +349,14 @@ h2{
 .text3{
 	color: #fff;
 	font-size: 14px;
-	width: 350px;
+	width: 270px;
 	margin-top: 40px;
 }
 .columntwo{
 	width: 500px;
 }
 .qwerty{
-	margin-top: 50px;
+	margin-top: 52px;
 	width: 400px;
 	height: 200px;
 }
@@ -365,4 +373,30 @@ h2{
 }
 .secondgroup{
 	margin-top: 40px;
+}
+.text4{
+	color: #fff;
+	font-size: 14px;
+	width: 270px;
+	margin-top: 40px;
+}
+.mail{
+	display: flex;
+	margin-top: 20px;
+}
+input{
+	background: rgba(255, 255, 255, 0.4);
+	padding: 7px 0px 7px 10px;
+	color: white;
+}
+input::-webkit-input-placeholder{ color: white
+}
+.button3{
+	display: inline;
+	background: black;
+	border: solid grey 1pxs;
+	padding: 10px 20px;
+}
+.subscr{
+	color: #fff;
 }
