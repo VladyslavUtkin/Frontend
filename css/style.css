@@ -1,5 +1,5 @@
 body {
-	width: 1519px;
+	width: auto;
 	background: black;
 	padding: 0;
 	margin: 0;
@@ -218,6 +218,7 @@ div.new{
 .katalog{
 	border: solid #fff 1px;
 	padding: 12px 28px;
+	border-radius: 4px;
 	transition: color .4s linear;
 	transition: background .3s linear;
 }
@@ -226,4 +227,142 @@ div.new{
 	color: #000;
 	border: solid #fff 1px;
 	cursor: pointer;
+}
+.imageman img{
+	width: 680px;
+}
+.block3{
+	display: flex;
+}
+.collection{
+	background: #000;
+	color: #fff;
+	width: 800px;
+}
+.collection h1{
+	font-weight: normal;
+	text-align: center;
+}
+.collectiontwo{
+	display: flex;
+	justify-content: center;
+}
+.collection hr{
+	margin-top: 20px;
+}
+.text2{
+	width: 400px;
+	text-align: center;
+}
+.button2{
+	display: flex;
+	justify-content: center;
+}
+.textarea2{
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+.button2{
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+.view{
+	border: solid #fff 1px;
+	padding: 12px 28px;
+	border-radius: 4px;
+	transition: color .4s linear;
+	transition: background .3s linear;
+}
+.view:hover{
+	background: #e3e5e4;
+	color: #000;
+	border: solid #fff 1px;
+	cursor: pointer;
+}
+.newproducts2{
+	display: flex;
+	justify-content: center;
+}
+.newproducts2 h1{
+	width: 600px;
+}
+.block4{
+	padding-bottom: 130px;
+}
+.block4 .container{
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+}
+.block5{
+	background: #0F0F0F;
+}
+.brands{
+	display: flex;
+	justify-content: center;
+}
+.block5 .container{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+footer{
+	background: url(../img/lastphoto.png) no-repeat center top;
+}
+footer .container{
+	display: flex;
+}
+.container .group{
+	margin-right: 0;
+}
+.columnone{
+	margin-right: 40px;
+}
+h2{
+	font-family: 'Playfair Display';
+	font-weight: normal;
+	font-size: 24px;
+	color: white;
+	text-width: normal;
+	text-transform: uppercase;
+	text-align: left;
+	padding-top: 93px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.text3{
+	color: #fff;
+	font-size: 14px;
+	width: 350px;
+	margin-top: 40px;
+}
+.columntwo{
+	width: 500px;
+}
+.qwerty{
+	margin-top: 50px;
+	width: 400px;
+	height: 200px;
+}
+.categories{
+	display: inline;
+	text-align: center;
+	background: black;
+	color: white;
+	font-size: 14px;
+	border: solid grey 1px;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-right: 20px;
+}
+.secondgroup{
+	margin-top: 40px;
 }
